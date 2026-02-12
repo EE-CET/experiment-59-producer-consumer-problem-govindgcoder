@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Check Producer Consumer Logic",
+      "setup": "javac src/ProducerConsumer.java",
+      "run": "java -cp src ProducerConsumer",
+      "input": "",
+      "output": "Produced: 1\nConsumed: 1\nProduced: 2\nConsumed: 2\nProduced: 3\nConsumed: 3\nProduced: 4\nConsumed: 4\nProduced: 5\nConsumed: 5",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}
